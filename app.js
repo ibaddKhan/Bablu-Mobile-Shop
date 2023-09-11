@@ -2,22 +2,20 @@
 
 function createStar() {
   const star = document.createElement("div");
-  //   document.querySelector("div").blur();
   star.classList.add("star");
   const size = Math.random() * 4;
   star.style.width = `${size}px`;
   star.style.position = `fixed`;
-  // star.style.zIndex = "-1";
+  star.style.zIndex = "-1";
   star.style.height = `${size}px`;
   star.style.top = `${Math.random() * 100}%`;
-  star.style.backgroundRepeat = `repeat`;
   star.style.left = `${Math.random() * 100}%`;
-  star.style.animationDelay = `${Math.random() * 4}s`;
+  star.style.animationDelay = `${Math.random() * 2}s`;
   document.body.appendChild(star);
 }
 
 function createStars() {
-  for (let i = 0; i < 70; i++) {
+  for (let i = 0; i < 50; i++) {
     createStar();
   }
 }

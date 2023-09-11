@@ -13,14 +13,12 @@ body {
   background-color: black;
 }
 .star {
-  /* background-size: cover; */
-  /* background-repeat: repeat; */
   position: absolute;
   background-color: white;
   border-radius: 50%;
   animation: twinkle 7s infinite;
-  opacity: 0; /* Initially set opacity to 0 */
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); /* Add a larger shadow */
+  opacity: 0;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
 }
 #main-div {
   display: flex;
