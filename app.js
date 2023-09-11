@@ -10,7 +10,7 @@ function createStar() {
   star.style.height = `${size}px`;
   star.style.top = `${Math.random() * 100}%`;
   star.style.left = `${Math.random() * 100}%`;
-  star.style.animationDelay = `${Math.random() * 2}s`;
+  star.style.animationDelay = `${Math.random() * 1}s`;
   document.body.appendChild(star);
 }
 

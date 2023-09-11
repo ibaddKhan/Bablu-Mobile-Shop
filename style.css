@@ -16,7 +16,7 @@ body {
   position: absolute;
   background-color: white;
   border-radius: 50%;
-  animation: twinkle 7s infinite;
+  animation: twinkle 5s infinite;
   opacity: 0;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
 }
@@ -28,6 +28,7 @@ body {
   gap: 100px;
 }
 .main {
+  background-color: black;
   padding: 30px;
   border: 1px transparent;
   border-radius: 20px;
