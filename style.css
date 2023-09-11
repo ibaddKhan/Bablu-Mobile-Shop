@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  background-attachment: fixed;
+  /* overflow: auto; */
+  background-color: black;
+}
+.star {
+  /* background-size: cover; */
+  /* background-repeat: repeat; */
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  animation: twinkle 7s infinite;
+  opacity: 0; /* Initially set opacity to 0 */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); /* Add a larger shadow */
+}
+#main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.main {
+  padding: 30px;
+  border: 1px transparent;
+  border-radius: 20px;
+  box-shadow: 12px 10px 27px rgb(149 67 217);
+  display: flex;
+  justify-content: center;
+}
+.main:hover {
+  transform: translateX(1.2);
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+button {
+  padding: 10px 19px;
+  color: #700c86;
+  font-size: 19px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 15vw;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+h1 {
+  text-shadow: 13px 2px 40px rgb(149 67 217);
+  padding: 40px;
+  gap: 10px;
+  text-align: center;
+  font-size: 250%;
+  color: rgb(199, 112, 240);
+  font-weight: bolder;
+}
